@@ -150,3 +150,27 @@ footer>a:last-child{color:#e8a18b;font-weight:700}
   .project-feature{padding:25px;min-height:300px}
   footer{flex-wrap:wrap}
 }
+
+
+.profile-detail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+  color: #a7a7b3;
+  font-size: 14px;
+}
+
+.profile-detail a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.profile-detail a:hover {
+  color: #ffffff;
+}
+
+.detail-icon {
+  font-size: 16px;
+}
